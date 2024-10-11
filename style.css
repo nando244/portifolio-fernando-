@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --fonte-principal: 'Inter', sans-serif;
+    --fonte-secundaria: 'Raleway', sans-serif;
+    --azul: rgb(36, 38, 209);
+    --azul-fraco: rgb(119, 176, 249);
+    --preto: rgb(0, 0, 0);
+    --violeta: rgb(165, 86, 202);
+    --cinza: rgb(77, 84, 85);
+}
+
+body {
+    font-family: var(--fonte-secundaria);
+    background-color: var(--cinza);
+    color: var(--preto);
+}
