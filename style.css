@@ -1,24 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 
 
 :root {
-    --fonte-principal: 'Inter', sans-serif;
-    --fonte-secundaria: 'Raleway', sans-serif;
-    --azul: rgb(36, 38, 209);
-    --azul-fraco: rgb(119, 176, 249);
-    --preto: rgb(0, 0, 0);
-    --violeta: rgb(165, 86, 202);
-    --cinza: rgb(77, 84, 85);
+    --fonte-principal: "Oswald", sans-serif;
+    --fonte-secundaria: "Work Sans", sans-serif;
+    --dark-moss-green: rgb(74, 86, 36);
+    --pakistan-green: #283618ff;
+    --cornsilk: #fefae0ff;
+    --earth-yellow: #dda15eff;
+    --tigers-eye: rgb(0, 0, 0);
 }
 
 body {
     font-family: var(--fonte-secundaria);
-    background-color: var(--azul-fraco);
-    color: var(--preto);
+    background-color: var(--pakistan-green);
+    color: var(--tigers-eye);
 }
-.circular-img {
-    width: 150px;
-    height: 150px;
-    object-fit: cover; /* Garante que a imagem seja bem ajustada ao espaço circular */
+
+.img.thumbnail{
+    border: 2px solid var(--mamao)
+}
+
+h1,h3{
+    font-family: var(--fonte-principal);
+}
+
+.card{
+    background-color: var(--dark-moss-green);
+    color: var(--cornsilk);
+    border: 5px solid var(--cornsilk);
+    
+}
+
+.footer-link{
+    text-decoration: none;
+    font-size: 1.2em;
+    color: var(--tigers-eye);
 }
